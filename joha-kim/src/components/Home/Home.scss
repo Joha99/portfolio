@@ -1,17 +1,52 @@
+@import "../../sass/main.scss";
+
 .home {
-  height: 90vh;
-  font-size: var(--font-big);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: calc(100vh - var(--header-height));
+
+  background: var(--color-5);
+  color: var(--color-white);
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+.intro {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.introduction {
-  text-align: center;
-  line-height: 1.2;
-}
-
-.name {
   font-size: var(--font-extra-big);
-  letter-spacing: 1.4rem;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.highlight {
+  display: inline-block;
+
+  &-1 {
+    &::first-letter {
+      color: var(--color-1);
+    }
+  }
+
+  &-2 {
+    &::first-letter {
+      color: var(--color-2);
+    }
+  }
+
+  &-3 {
+    &::first-letter {
+      color: var(--color-3);
+    }
+  }
 }

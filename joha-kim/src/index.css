@@ -8,12 +8,12 @@
   --color-white: #fff;
   --color-black: #000;
 
-  --font-extra-big: 14rem;
-  --font-big: 6rem;
-  --font-medium: 5rem;
-  --font-small: 3rem;
+  --font-extra-big: 50px;
+  --font-big: 32px;
+  --font-medium: 25px;
+  --font-small: 16px;
 
-  --header-height: 7rem;
+  --header-height: 5rem;
 }
 
 *,
@@ -24,6 +24,13 @@
   padding: 0;
 }
 
+a:link,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -32,5 +39,5 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font: 10px "Open Sans", Arial, Helvetica, sans-serif;
+  font: 16px "Open Sans", Arial, Helvetica, sans-serif;
 }

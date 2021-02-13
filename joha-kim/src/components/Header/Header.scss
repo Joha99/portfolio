@@ -1,8 +1,15 @@
+@import "../../sass/main.scss";
+
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  font-size: var(--font-small);
+
+  background: var(--color-5);
+  color: var(--color-white);
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: var(--font-medium);
   height: var(--header-height);
   text-transform: lowercase;
 }
