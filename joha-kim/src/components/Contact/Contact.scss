@@ -1,0 +1,29 @@
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: var(--font-small);
+  height: calc(100vh - var(--header-height));
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.form {
+
+  &__header {
+  }
+
+  &__formik {
+  }
+
+  &__input {
+  }
+}
+
+.detail {
+  align-items: flex-start;
+}

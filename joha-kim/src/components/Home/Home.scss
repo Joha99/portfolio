@@ -1,0 +1,17 @@
+.home {
+  height: 90vh;
+  font-size: var(--font-big);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.name {
+  font-size: var(--font-extra-big);
+  letter-spacing: 1.4rem;
+}

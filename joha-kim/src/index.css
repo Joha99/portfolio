@@ -1,0 +1,36 @@
+:root {
+  --color-1: #f8e9a1;
+  --color-2: #f76c6c;
+  --color-3: #a8d0e6;
+  --color-4: #374785;
+  --color-5: #24305e;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --font-extra-big: 14rem;
+  --font-big: 6rem;
+  --font-medium: 5rem;
+  --font-small: 3rem;
+
+  --header-height: 7rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 10px "Open Sans", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,36 @@
+.about-name {
+  height: 65rem;
+  background-color: var(--color-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+
+  h1 {
+    font-size: 10rem;
+  }
+}
+
+.about-section {
+  font-size: 3rem;
+  width: 60%;
+  margin: 0 auto;
+  padding: 17rem 0;
+}
+
+.about-heading {
+  font-size: var(--font-big);
+  margin-bottom: 2rem;
+}
+
+.about-desc {
+  line-height: 1.5;
+}
+
+.border {
+  display: block; 
+  width: 40%; 
+  height: 1rem; 
+  background-color: var(--color-4);
+  margin: 0 auto;
+}

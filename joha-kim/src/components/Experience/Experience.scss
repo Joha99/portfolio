@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 70%;
+  margin: 10rem auto;
+  font-size: 1.7rem;
+}
+
+/* BUTTONS */
+.btns {
+  width: 100%;
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    outline: none;
+  }
+}
