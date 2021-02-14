@@ -7,11 +7,12 @@
 
   --color-white: #fff;
   --color-black: #000;
+  --color-gray: #282828;
 
   --font-extra-big: 50px;
   --font-big: 32px;
-  --font-medium: 25px;
-  --font-small: 16px;
+  --font-medium: 28px;
+  --font-small: 22px;
 
   --header-height: 5rem;
 }
