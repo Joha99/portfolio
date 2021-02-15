@@ -7,6 +7,7 @@ const About = () => {
         <h1>who am i?</h1>
       </div>
       <div className="about__section">
+        <img src="./shape-1.png" className="about__section-img" />
         <div className="about__heading">background</div>
         <p className="about__desc">
           I first learned front-end development during my internship in Summer
@@ -19,6 +20,7 @@ const About = () => {
         </p>
       </div>
       <div className="about__section">
+        <img src="./shape-1.png" className="about__section-img" />
         <div className="about__heading">education</div>
         <p className="about__desc">
           I am a junior majoring in Computer Science at Georgia Institute of
@@ -30,6 +32,7 @@ const About = () => {
         </p>
       </div>
       <div className="about__section">
+        <img src="./shape-1.png" className="about__section-img" />
         <div className="about__heading">hobbies</div>
         <p className="about__desc">
           Ever since I was little, I enjoyed drawing, painting, designing, and

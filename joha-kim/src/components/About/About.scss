@@ -7,6 +7,17 @@
 .about__section {
   width: 55%;
   margin: 11rem auto;
+  position: relative;
+  z-index: 1;
+
+  &-img {
+    position: absolute;
+    top: -4.5rem;
+    left: -5rem;
+    width: 15rem;
+    height: auto;
+    z-index: -1;
+  }
 }
 
 .about__question {
@@ -25,11 +36,11 @@
   font-size: var(--font-big);
   font-weight: 700;
   text-transform: lowercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   display: inline-block;
-  background-color: var(--color-1);
-  border-radius: 5px;
-  padding: 0.5rem;
+  // background-color: var(--color-1);
+  // border-radius: 5px;
+  // padding: 0.5rem;
 }
 
 .about__desc {
