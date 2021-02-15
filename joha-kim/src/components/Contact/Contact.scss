@@ -1,4 +1,8 @@
+@import "../../sass/main.scss";
+
 .contact {
+  font-family: "Nunito", sans-serif;
+  color: var(--color-white);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   font-size: var(--font-small);
@@ -13,17 +17,57 @@
 }
 
 .form {
+  background-color: var(--color-4);
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  width: 55%;
 
   &__header {
+    margin-bottom: 2.3rem;
   }
 
   &__formik {
   }
 
   &__input {
+    display: flex;
+    margin-bottom: 0.8rem;
+
+    label {
+      text-transform: lowercase;
+      width: 50%;
+    }
+
+    input {
+      flex: 1;
+      border-radius: 5px;
+      border: none;
+      background-color: var(--color-5);
+    }
+  }
+
+  &__btn {
+    display: block;
+    width: 50%; 
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--color-3);
+    color: var(--color-5);
+    text-transform: lowercase;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;
   }
 }
 
 .detail {
-  align-items: flex-start;
+  background-color: var(--color-4);
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+
+  &__item {
+  }
 }
