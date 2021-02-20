@@ -1,0 +1,37 @@
+@import "../../sass/main.scss";
+
+.interests {
+  height: calc(100vh - var(--header-height));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__heading {
+    text-align: center;
+  }
+}
+
+.tools{
+  list-style: none;
+  position: relative;
+  display: block;
+  height: 30rem;
+  width: 30rem;
+  background-color: yellow;
+
+  li {
+    position: absolute;
+    left: 45%; 
+    top: 50%;
+    background-color: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li:first-child {
+    left: 25%;
+    top: 45%;
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+  --color-1: #f8e9a1;
+  --color-2: #f76c6c;
+  --color-3: #a8d0e6;
+  --color-4: #374785;
+  --color-5: #24305e;
+
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #282828;
+
+  --font-extra-big: 47px;
+  --font-big: 32px;
+  --font-medium: 28px;
+  --font-small: 22px;
+
+  --header-height: 5rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px "Open Sans", Arial, Helvetica, sans-serif;
+}
