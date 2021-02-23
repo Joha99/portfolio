@@ -1,22 +1,40 @@
 @import "../../sass/main.scss";
 
 .interests {
+  font-family: "Nunito", sans-serif;
   height: calc(100vh - var(--header-height));
   width: 100%;
   position: relative;
 }
 
 .heading {
-  @include center;
+  @include abs-pos-center;
+  font-weight: 800;
+  font-size: var(--font-extra-small);
+  text-align: center;
+
+  h1 {
+  }
 }
 
 .tools {
-  @include center;
-  @include on-circle($item-count: 5, $circle-size: 35rem, $item-size: 5rem);
+  @include abs-pos-center;
+  @include on-circle($item-count: 5, $circle-size: 40rem, $item-size: 8rem);
   list-style: none;
-  border: 5px solid tomato;
+  // border: 5px solid tomato;
+}
 
-  li {
-    background-color: yellow;
+.tool {
+  @include flex-center;
+  flex-direction: column;
+
+  &__name {
+    font-size: var(--font-small);
+    white-space: nowrap;
+  }
+
+  &__img {
+    height: 7rem;
+    width: 7rem;
   }
 }
