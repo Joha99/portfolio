@@ -16,26 +16,29 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="btns">
-        <button onClick={() => setTab(0)}>Jobs</button>
-        <button onClick={() => setTab(1)}>Projects</button>
-      </div>
-      <div className="experience">
-        {tab === 0 && (
-          <div className="jobs">
-            {myJobs.map((job, index) => {
-              return <Job key={index} {...job} />;
-            })}
-          </div>
-        )}
-        {tab === 1 && (
-          <div className="projects">
-            {myProjects.map((project, index) => {
-              return <Project key={index} {...project} />;
-            })}
-          </div>
-        )}
+    <div className="experience">
+      <div className="experience__grid">
+        <nav className="experience__nav">
+          <button onClick={() => setTab(0)} className="experience__nav--btn"><span>Work</span></button>
+          <button onClick={() => setTab(1)} className="experience__nav--btn"><span>Projects</span></button>
+        </nav>
+
+        <div className="descriptions">
+          {tab === 0 && (
+            <div className="jobs">
+              {myJobs.map((job, index) => {
+                return <Job key={index} {...job} />;
+              })}
+            </div>
+          )}
+          {tab === 1 && (
+            <div className="projects">
+              {myProjects.map((project, index) => {
+                return <Project key={index} {...project} />;
+              })}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

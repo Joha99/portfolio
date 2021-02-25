@@ -1,14 +1,13 @@
 import "./Interests.scss";
-import $ from "jquery";
 import React, { useEffect, useState } from "react";
 
 const Interests = () => {
   const interests = [
     { name: "Docker", url: "./images/docker.png" },
-    { name: "React Spring", url: "./images/react-spring.png" },
     { name: "GraphQL", url: "./images/graphql.png" },
     { name: "PostGres", url: "./images/postgres.png" },
     { name: "Python", url: "./images/python.png" },
+    { name: "Redux", url: "./images/redux.png" },
   ];
 
   useEffect(() => {}, []);

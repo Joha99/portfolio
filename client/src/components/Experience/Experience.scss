@@ -1,23 +1,45 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  width: 70%;
-  margin: 10rem auto;
-  font-size: 1.7rem;
+@import "../../sass/main.scss";
+
+.experience {
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  padding-top: 10rem;
+  text-transform: lowercase;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-5);
+
+  &__grid {
+    display: grid;
+    grid-column-gap: 1.3rem;
+    grid-template-columns: 1fr 4fr;
+    font-size: 1.7rem;
+    width: 60%;
+    margin: 0 auto;
+  }
 }
 
-/* BUTTONS */
-.btns {
+.experience__nav {
   width: 100%;
 
-  button {
+  &--btn {
+    text-transform: inherit;
+    font-family: inherit;
     display: block;
     width: 100%;
-    padding: 1rem;
     font-size: 1.7rem;
     border: none;
-    background-color: transparent;
-    text-align: left;
+    background-color: var(--color-1);
+    text-align: center;
     outline: none;
+    padding: 5px;
+    border-radius: 5px;
+
+    span {
+      color: var(--color-5)
+    }
+  }
+
+  &--btn:not(:last-child) {
+    margin-bottom: 0.5rem;
   }
 }

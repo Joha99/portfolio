@@ -1,7 +1,10 @@
 /* PROJECTS */
 .project {
-  padding: 1rem;
   border-bottom: 1px solid gray;
+  
+  &:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .overview {
