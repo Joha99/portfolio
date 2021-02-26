@@ -19,8 +19,8 @@ const Experience = () => {
     <div className="experience">
       <div className="experience__grid">
         <nav className="experience__nav">
-          <button onClick={() => setTab(0)} className="experience__nav--btn"><span>Work</span></button>
-          <button onClick={() => setTab(1)} className="experience__nav--btn"><span>Projects</span></button>
+          <div onClick={() => setTab(0)} className="experience__nav--btn"><h1>Work</h1></div>
+          <div onClick={() => setTab(1)} className="experience__nav--btn"><h1>Projects</h1></div>
         </nav>
 
         <div className="descriptions">

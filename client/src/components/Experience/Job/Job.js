@@ -14,16 +14,15 @@ const Job = ({ company, title, start, end, desc }) => {
 
   return (
     <section className="job">
-      <div className="company">
-        <span className="company-name">{company}</span>
-        <ExpandMoreIcon onClick={() => setShowInfo(!showInfo)} />
+      <div className="company" onClick={() => setShowInfo(!showInfo)}>
+        <div className="company__name">{company}</div>
       </div>
 
       {showInfo && (
-        <div className="info">
-          <div className="title">{title}</div>
-          <div className="dates">{dates}</div>
-          <div className="desc">{desc}</div>
+        <div className="work">
+          <div className="work__title">{title}</div>
+          <div className="work__dates">{dates}</div>
+          <div className="work__desc">{desc}</div>
         </div>
       )}
     </section>

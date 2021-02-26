@@ -7,9 +7,8 @@ const Project = ({ title, tech, desc }) => {
 
   return (
     <section className="project">
-      <div className="overview">
+      <div className="overview" onClick={() => setShowInfo(!showInfo)}>
         <span className="title">{title}</span>
-        <ExpandMoreIcon onClick={() => setShowInfo(!showInfo)} />
       </div>
 
       {showInfo && (

@@ -1,6 +1,9 @@
 /* JOBS */
 .job {
-  border-bottom: 1px solid gray;
+  font-size: var(--font-medium);
+  padding: .7rem;
+  border-radius: 5px;
+  background-color: var(--color-3);
 
   &:not(:last-child) {
     margin-bottom: 0.5rem;
@@ -8,9 +11,24 @@
 }
 
 .company {
-  display: flex;
+  margin-bottom: 0.5rem;
+  &__name {
+    font-weight: 700;
+  }
 }
 
-.company-name {
-  margin-right: auto;
+.work {
+  font-size: var(--font-small);
+  
+  &__title {
+
+  }
+
+  &__dates {
+
+  }
+
+  &__desc {
+
+  }
 }
